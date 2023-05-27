@@ -9,12 +9,11 @@ header nav a{
 	color: #fff;
 }
 main{
-	height: calc(100vh - 300px);
+	height: calc(100vh - 153px);
 }
 footer{
 	background-color: #454545;
-	padding: 2rem;
-	min-height: 235px;
+	padding: 2rem; 
 }
  nav{
 	background-color: #ededed;
