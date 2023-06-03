@@ -37,23 +37,23 @@
       </nav>
 
       <main class="col-md-9">
-        <h1>Cadastro Cliente</h1>
+        <h1>Cadastro Funcionários</h1>
 
         <form action="" method="get">
 
           <div class="form-group">
-            <label for="nome"> Insira seu nome:
+            <label for="nome"> Nome:
               <input type="text" name="nome" placeholder="Nome" id="nome">
             </label>
           </div>
           <div class="form-group">
-            <label for="email"> Insira seu e-mail:
+            <label for="email"> E-mail:
               <input type="text" name="email" placeholder="Email" id="email">
             </label>
           </div>
 
           <div class="form-group">
-            <label for="telefone"> Insira seu Telefone:
+            <label for="telefone"> Telefone:
               <input type="text" name="telefone" placeholder="Telefone" id="telefone">
             </label>
           </div>
@@ -61,6 +61,29 @@
           <div class="form-group">
             <label for="endereco"> Endereço:
               <input type="text" name="endereco" placeholder="endereco" id="endereco">
+            </label>
+          </div>
+
+          
+
+          <div class="form-group">
+            <label for="funcao"> Função:
+              <select name="funcao" id="funcao">
+                <option value="" disabled>Escolha uma função</option>
+                <option value="garcom">Garçom</option>
+                <option value="caixa">Caixa</option>
+                <option value="bartender">Bartender</option>
+                <option value="limpeza">Limpeza</option>
+                <option value="pizzaiolo">Pizzaiolo</option>
+                <option value="outros">outros</option>
+              </select>
+            </label>
+          </div>
+
+          
+          <div class="form-group">
+           - <label for="salario"> Salário:
+              <input type="text" name="salario" placeholder="Salário" id="salario">
             </label>
           </div>
 
